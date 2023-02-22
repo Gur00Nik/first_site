@@ -45,7 +45,7 @@ const StageWork = () => {
             <br /> условия для заказчика
           </h5>
         </div>
-        <div className="stage__work">
+        <div id = "stageWork" className="stage__work">
           {stageWorks.map(({ headingblock, descriptionblock }, index) => {
             return (
               <StageWorkBlock

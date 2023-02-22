@@ -48,6 +48,10 @@
     height: 40px;
 }
 
+.link__icon {
+    display: flex;
+}
+
 @media (max-width:1200px) {
     .footer__content {
         flex-direction: column;
