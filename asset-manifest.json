@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/first_site/static/css/main.cd06f7ec.css",
+    "main.js": "/first_site/static/js/main.c62bf1fb.js",
+    "static/media/background_image2.svg": "/first_site/static/media/background_image2.5f5d131ab4cd9f68dc79.svg",
+    "static/media/background_image1.svg": "/first_site/static/media/background_image1.8c9c930a285082b0667c.svg",
+    "static/media/photo1.png": "/first_site/static/media/photo1.5ba279eb1ff0a1473a4e.png",
+    "static/media/photo2.png": "/first_site/static/media/photo2.e92b0ccb4a7288083dfa.png",
+    "static/media/photo5.png": "/first_site/static/media/photo5.040c527b7c38fce6179f.png",
+    "static/media/photo4.png": "/first_site/static/media/photo4.82bb5994bb387300da11.png",
+    "static/media/photo3.png": "/first_site/static/media/photo3.a1e430b87c662ca4bf56.png",
+    "static/media/photo6.png": "/first_site/static/media/photo6.00cc8b6c2c381fefcf80.png",
+    "static/media/viber.svg": "/first_site/static/media/viber.a4d94c3a332521ba29507279feaf93b0.svg",
+    "static/media/whatsup.svg": "/first_site/static/media/whatsup.28a362f8f5f4520845040d031712d600.svg",
+    "static/media/vk.svg": "/first_site/static/media/vk.4114275e018153cc01941ddfcfe8a6c2.svg",
+    "static/media/logo.svg": "/first_site/static/media/logo.d20e8ae20d58b067eb417a5a133dd70c.svg",
+    "static/media/phone.svg": "/first_site/static/media/phone.f2250b2d7a009e2711a9f3171a40874d.svg",
+    "static/media/mail.svg": "/first_site/static/media/mail.a0f36492a800e96af4314e69a3366e73.svg",
+    "static/media/time.svg": "/first_site/static/media/time.c5110c8253f19536187ea42b08e21b34.svg",
+    "index.html": "/first_site/index.html",
+    "main.cd06f7ec.css.map": "/first_site/static/css/main.cd06f7ec.css.map",
+    "main.c62bf1fb.js.map": "/first_site/static/js/main.c62bf1fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd06f7ec.css",
+    "static/js/main.c62bf1fb.js"
+  ]
+}
