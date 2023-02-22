@@ -43,7 +43,7 @@ const Footer = () => {
           <div className="messengers">
             <div>
               <a
-                href="https://vk.com/im?media=&sel=nuipzdc"
+                href="https://vk.com/im?media=&sel=id258043383"
                 className="link__icon"
               >
                 <img className="icon" src={VkIcon}></img>
