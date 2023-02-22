@@ -58,6 +58,8 @@
     .build__post {
         margin-top: 40px;
 
+        display: flex;
+
     }
 
     .call__us {
