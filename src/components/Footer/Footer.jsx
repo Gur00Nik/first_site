@@ -43,7 +43,8 @@ const Footer = () => {
           <div className="messengers">
             <div>
               <a
-                href="https://vk.com/im?media=&sel=id258043383"
+                target="_blank"
+                href="https://vk.com/id258043383"
                 className="link__icon"
               >
                 <img className="icon" src={VkIcon}></img>
@@ -51,6 +52,7 @@ const Footer = () => {
             </div>
             <div>
               <a
+                target="_blank"
                 href="whatsapp://send?phone=+79621620835"
                 className="link__icon"
               >
@@ -58,7 +60,11 @@ const Footer = () => {
               </a>
             </div>
             <div>
-              <a href="viber://chat?number=+79621620835" className="link__icon">
+              <a
+                target="_blank"
+                href="viber://chat?number=+79621620835"
+                className="link__icon"
+              >
                 <img className="icon" src={ViberIcon}></img>
               </a>
             </div>
