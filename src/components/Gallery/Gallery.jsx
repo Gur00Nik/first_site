@@ -31,7 +31,7 @@ const images = [
 
 const Gallery = () => {
   return (
-    <div id = "Gallery" className="gallery">
+    <div id = "gallery" className="gallery">
       <div className="container">
         <h1 className="gallery__heading">Галерея</h1>
         <div>

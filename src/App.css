@@ -6,6 +6,10 @@
     --swiper-pagination-bullet-horizontal-gap: 20px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Montserrat", serif;
     font-size: 18px;

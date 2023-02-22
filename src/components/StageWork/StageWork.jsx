@@ -38,14 +38,14 @@ const StageWork = () => {
   return (
     <div className="stage">
       <div className="container">
-        <div className="stage__heading">
+        <div id="stage-work" className="stage__heading">
           <h1>Этапы работы</h1>
           <h5>
             Мы стремимся обеспечить максимально комфортные
             <br /> условия для заказчика
           </h5>
         </div>
-        <div id = "stageWork" className="stage__work">
+        <div className="stage__work">
           {stageWorks.map(({ headingblock, descriptionblock }, index) => {
             return (
               <StageWorkBlock

@@ -10,7 +10,7 @@ import ViberIcon from "../../images/viber.svg";
 
 const Footer = () => {
   return (
-    <div id="Footer" className="footer">
+    <div id="footer" className="footer">
       <div className="container">
         <div className="footer__heading">
           <h1>Контакты</h1>
