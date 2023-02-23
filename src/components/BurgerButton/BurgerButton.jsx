@@ -4,7 +4,7 @@ import clsx from "clsx";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
 import { BurgerMenuContext } from "../../contexts/BurgerMenuContext/BurgerMenuContext";
 const BurgerButton = () => {
-  const { active, onClick, onClose } = useContext(BurgerMenuContext);
+  const { active, onClick } = useContext(BurgerMenuContext);
 
   return (
     <>

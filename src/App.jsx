@@ -5,7 +5,7 @@ import ResultsBlock from "./components/ResultsBlock/ResultsBlock";
 import StageWork from "./components/StageWork/StageWork";
 import Gallery from "./components/Gallery/Gallery";
 import Footer from "./components/Footer/Footer";
-
+import clsx from "clsx";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/grid";
@@ -19,7 +19,7 @@ function App() {
   const { active } = useContext(BurgerMenuContext);
 
   return (
-    <section>
+    <section className={clsx("section", active && "section__active")}>
       <div className="background">
         <Header />
         <BuildBlock />
