@@ -62,7 +62,7 @@ const Footer = () => {
             <div>
               <a
                 target="_blank"
-                href="viber://chat?number=+79621620835"
+                href="viber://chat?number=%2B79621620835"
                 className="link__icon"
               >
                 <img className="icon" src={ViberIcon}></img>
