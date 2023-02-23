@@ -11,7 +11,13 @@ import "swiper/css/pagination";
 import "swiper/css/grid";
 
 import "./App.css";
+import BurgerMenuContextProvider, {
+  BurgerMenuContext,
+} from "./contexts/BurgerMenuContext/BurgerMenuContext";
+import { useContext } from "react";
 function App() {
+  const { active } = useContext(BurgerMenuContext);
+
   return (
     <section>
       <div className="background">
@@ -28,4 +34,8 @@ function App() {
   );
 }
 
-export default App;
+export default () => (
+  <BurgerMenuContextProvider>
+    <App />
+  </BurgerMenuContextProvider>
+);

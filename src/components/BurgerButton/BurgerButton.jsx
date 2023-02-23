@@ -1,15 +1,11 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import styles from "./BurgerButton.module.css";
 import clsx from "clsx";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
+import { BurgerMenuContext } from "../../contexts/BurgerMenuContext/BurgerMenuContext";
 const BurgerButton = () => {
-  const [active, setActive] = useState(false);
-  const onClick = () => {
-    setActive(!active);
-  };
-  const onClose = () => {
-    setActive(false);
-  };
+  const { active, onClick, onClose } = useContext(BurgerMenuContext);
+
   return (
     <>
       <button
@@ -20,7 +16,7 @@ const BurgerButton = () => {
         <div className={styles.line}></div>
         <div className={styles.line}></div>
       </button>
-      <BurgerMenu onClose={onClose} active={active} />
+      <BurgerMenu  />
     </>
   );
 };
