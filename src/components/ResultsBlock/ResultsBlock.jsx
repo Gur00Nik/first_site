@@ -10,7 +10,7 @@ const results = [
 ];
 const ResultsBlock = () => {
   return (
-    <div className="build__heading__block">
+    <div id="our successes" className="build__heading__block">
       <div className="container">
         <h1 className="build__heading">Наши успехи</h1>
         <div className="build__statistics__block">

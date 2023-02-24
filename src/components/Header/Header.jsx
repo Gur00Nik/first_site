@@ -14,6 +14,9 @@ const Header = () => {
           <a href="#stage-work" className="header__link">
             Этапы работы
           </a>
+          <a href="#our successes" className="header__link">
+            Наши успехи
+          </a>
           <a href="#gallery" className="header__link">
             Галерея
           </a>

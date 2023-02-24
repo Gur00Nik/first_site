@@ -37,7 +37,10 @@ const Footer = () => {
               <img className="icon" src={TimeIcon}></img>
             </div>
             <div>
-              <h2>Время работы: Ежедневно, с 8 до 18-00.</h2>
+              <h2>
+                Время работы: <br />
+                Ежедневно, с 8 до 18-00.
+              </h2>
             </div>
           </div>
           <div className="messengers">

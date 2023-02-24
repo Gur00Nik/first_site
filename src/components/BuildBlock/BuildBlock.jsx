@@ -10,7 +10,6 @@ const BuildBlock = () => {
             <br />
             во Владимире и <br /> Владимирской области
           </p>
-          <button className="call__us">Позвонить</button>
         </div>
       </div>
     </div>
